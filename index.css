@@ -11,6 +11,11 @@ body {
     padding-top: 70px; /* Prevent content from going under the navbar */
     /* background-color:  rgb(236, 233, 255); */
     background-color: rgb(236, 233, 255);
+  
+
+    min-height: 100vh; /* Full viewport height */
+
+   
 }
 
 /* Navbar Styles */
@@ -419,7 +424,7 @@ section{
     font-family: "Roboto", serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 15.5px;
+    font-size: 2px;
     color: rgb(132, 146, 166);
     letter-spacing: 1px;
    margin-bottom: 5%;
@@ -480,25 +485,164 @@ section{
     
 } */
 
+
+
+.container{
+    padding: 5%;
+}
+.section-title{
+    padding: 20px;
+}
 .section-title p{
+    margin: 5px 0 0; /* Adjust spacing */
     font-family: "Roboto", serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(132, 146, 166);
-    margin-bottom: 20%;
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+    
 }
 
 
 .section-title h4{
-    margin-top: 20%;
+    margin-top: 5%;
     letter-spacing: 2.5px;
     font-size: 30px;
+    color: rgb(110, 0, 255);
+    letter-spacing: 3px;
 }
+.section-title-img {
+    margin-top: 5%;
+    
+}
+.section-title h5{
+    /* margin-top: 24%; */
+    letter-spacing: 0.2px;
+    font-size: 30px;
+    font-family: "Anton", serif;
+    font-weight: 700,bold;
+    font-style: normal;
+    color: rgb(110, 0, 255);
+    line-height: 1.9;
+    /* width: 500px; */
+}
+
+
+.section-title a{
+    font-size: 15px;
+    font-family: "Anton", serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 2px;
+    color: rgb(110, 0, 255);
+    border: none;
+}
+
+
 #section-1{
-    margin-top: 160px;
+    margin-top: 60px;
 }
 #section-2{
     background-color: white;
   
 }
+
+
+
+
+/* Pricing */
+
+#pricing{
+  
+    background-color: white;
+}
+.card-body span{
+        display: inline block;
+        padding: 10px 30px ;
+        height: fit-content;
+       
+        background-color: rgb(236, 233, 255);
+        display: contents;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: rgb(110, 0, 255);
+        font-size: 15px;
+        font-weight: bold;
+        clip-path: circle(80% at 50% 80%); /* Creates a circular shape */
+        position: relative;
+    
+
+}
+
+.card-body h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.card-body p{
+    margin: 5px 0 0; /* Adjust spacing */
+    font-family: "Roboto", serif;
+    font-weight: 500,bold;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(132, 146, 166);
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+}
+
+
+.card-body li{
+    margin: 5px 0 0; /* Adjust spacing */
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    color: rgb(132, 146, 166);
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+    line-height: 1;
+}
+
+.pricing-btn{
+    color: whitesmoke;
+    background-color: rgb(110, 0, 255) ;
+}
+
+.pricing-btn:hover{
+    color: whitesmoke;
+    background-color: rgb(75, 4, 168) ;
+}
+.card-body i{
+    margin: 3px;
+    border: none;
+}
+
+  
+  .card-body-box {
+
+ 
+   background-color: rgb(255, 255, 255);
+   border-bottom-color:  rgb(173, 181, 189);
+    border-radius: 8px;
+ 
+    padding: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+ 
+   border-bottom-style: solid;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   border-bottom-width:4.66667px; ;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+  }
+
+  .card-body-box:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-color: rgb(75, 4, 168);
+  }
